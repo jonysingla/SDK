@@ -7,81 +7,121 @@ provides-member:
 - ["12MINDPayments8PaymentsC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Dictionary"
+- !private "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "NSObject"
 - "Payments"
+- "String"
+- !private "StringLiteralType"
 - !private "SubFrameworkHome"
 - !private "SubFrameworkTwo"
+- !private "print"
 depends-member:
 - !private ["s7CVarArgP", "SubFrameworkHome"]
 - !private ["s7CVarArgP", "SubFrameworkTwo"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "add"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "subtract"]
+- !private ["s7CVarArgP", "transInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "SubFrameworkHome"]
 - !private ["s28CustomDebugStringConvertibleP", "SubFrameworkTwo"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "add"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "subtract"]
+- !private ["s28CustomDebugStringConvertibleP", "transInfo"]
 - !private ["s23CustomStringConvertibleP", "SubFrameworkHome"]
 - !private ["s23CustomStringConvertibleP", "SubFrameworkTwo"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "subtract"]
+- !private ["s23CustomStringConvertibleP", "transInfo"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SQ", "SubFrameworkHome"]
 - !private ["SQ", "SubFrameworkTwo"]
 - ["SQ", ""]
 - !private ["SQ", "add"]
 - !private ["SQ", "init"]
+- !private ["SQ", "print"]
 - !private ["SQ", "subtract"]
+- !private ["SQ", "transInfo"]
 - !private ["SH", "SubFrameworkHome"]
 - !private ["SH", "SubFrameworkTwo"]
 - ["SH", ""]
 - !private ["SH", "add"]
 - !private ["SH", "init"]
+- !private ["SH", "print"]
 - !private ["SH", "subtract"]
+- !private ["SH", "transInfo"]
+- ["So8NSObjectC", "Dictionary"]
 - ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "SubFrameworkHome"]
 - !private ["So8NSObjectC", "SubFrameworkTwo"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "add"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "subtract"]
+- ["So8NSObjectC", "transInfo"]
 - !private ["So8NSObjectP", "SubFrameworkHome"]
 - !private ["So8NSObjectP", "SubFrameworkTwo"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "add"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "subtract"]
+- !private ["So8NSObjectP", "transInfo"]
+- ["12MINDPayments8PaymentsC", "Dictionary"]
 - ["12MINDPayments8PaymentsC", "Int"]
+- ["12MINDPayments8PaymentsC", "String"]
 - !private ["12MINDPayments8PaymentsC", "SubFrameworkHome"]
 - !private ["12MINDPayments8PaymentsC", "SubFrameworkTwo"]
 - ["12MINDPayments8PaymentsC", "add"]
 - ["12MINDPayments8PaymentsC", "deinit"]
 - ["12MINDPayments8PaymentsC", "init"]
+- !private ["12MINDPayments8PaymentsC", "print"]
 - ["12MINDPayments8PaymentsC", "subtract"]
+- ["12MINDPayments8PaymentsC", "transInfo"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["16MINDSubFramework03SubB4HomeC", "add"]
+- !private ["16MINDSubFramework03SubB4HomeC", "transInfo"]
 - !private ["19MindSubFrameworkTwo0bcD0C", "subtract"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SubFrameworkHome"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SubFrameworkTwo"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "subtract"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transInfo"]
 depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
 - "SQ"
 - "SH"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "12MINDPayments8PaymentsC"
+- !private "s27StringInterpolationProtocolP"
 - !private "16MINDSubFramework03SubB4HomeC"
 - !private "19MindSubFrameworkTwo0bcD0C"
+- !private "s16TextOutputStreamP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
@@ -119,4 +159,4 @@ depends-external:
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c40d2d3a815a731a9c5119b9cb7d32da"
+interface-hash: "228c36aad966d783be5ae9c91a7f339c"

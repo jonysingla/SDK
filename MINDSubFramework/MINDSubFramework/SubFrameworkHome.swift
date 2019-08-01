@@ -16,4 +16,11 @@ open class SubFrameworkHome: NSObject {
         return sum
     }
     
+    open class func transInfo(transInfo: Dictionary<String, Any>) -> Dictionary<String, Any>
+    {
+        print("Framework Beofre jony \(transInfo)")
+        var dict : Dictionary = transInfo
+        print("Framework After jony \(dict)")
+        return dict
+    }
 }

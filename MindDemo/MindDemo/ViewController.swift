@@ -48,17 +48,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             let transInfo = ["paidAmount": paidAmount ?? 0, "txtCardNumber": txtCardNumber.text ?? 0, "txtCVV": txtCVV.text ?? 0, "txtCCExp": txtCCExp.text ?? 0, "cardTypePaymentMode": cardTypePaymentMode] as [String : Any]
             print("transInfo \(transInfo)")
+            let dict: Dictionary = Payments.transInfo(transInfo: transInfo)
+            print("AFTER transInfo \(dict)")
             
-//            dictionary["paidAmount"] as? String
-            
-            print("dictionary["paidAmount"] as? String)
-            
-            
-//            print("paidAmount  \(paidAmount ?? 0)")
-//            print("txtCardNumber \(String(describing: txtCardNumber.text))")
-//            print("txtCVV \(String(describing: txtCVV.text))")
-//            print("txtCCExp \(String(describing: txtCCExp.text))")
-//            print("cardTypePaymentMode  \(cardTypePaymentMode)")
+            print(transInfo["paidAmount"] ?? 0)
+            print(transInfo["txtCardNumber"] ?? 0)
+            print(transInfo["txtCVV"] ?? 0)
+            print(transInfo["txtCCExp"] ?? 0)
+            print(transInfo["cardTypePaymentMode"] ?? "cardTypePaymentMode")
         }
     }
     

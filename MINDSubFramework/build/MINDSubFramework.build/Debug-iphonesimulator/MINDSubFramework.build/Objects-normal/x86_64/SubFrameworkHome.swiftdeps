@@ -8,8 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
+- "Dictionary"
+- !private "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "NSObject"
+- "String"
 - !private "StringLiteralType"
 - "SubFrameworkHome"
 - !private "print"
@@ -21,29 +25,41 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - ["SQ", ""]
 - !private ["SQ", "init"]
 - !private ["SQ", "print"]
 - ["SH", ""]
 - !private ["SH", "init"]
 - !private ["SH", "print"]
+- ["So8NSObjectC", "Dictionary"]
 - ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "add"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "print"]
-- ["So8NSObjectC", "sayHello"]
+- ["So8NSObjectC", "transInfo"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "print"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["16MINDSubFramework03SubB4HomeC", "Dictionary"]
 - ["16MINDSubFramework03SubB4HomeC", "Int"]
+- ["16MINDSubFramework03SubB4HomeC", "String"]
 - ["16MINDSubFramework03SubB4HomeC", "add"]
 - ["16MINDSubFramework03SubB4HomeC", "deinit"]
 - ["16MINDSubFramework03SubB4HomeC", "init"]
 - !private ["16MINDSubFramework03SubB4HomeC", "print"]
-- ["16MINDSubFramework03SubB4HomeC", "sayHello"]
+- ["16MINDSubFramework03SubB4HomeC", "transInfo"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
@@ -51,11 +67,14 @@ depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
 - "SQ"
 - "SH"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "s27StringInterpolationProtocolP"
 - "16MINDSubFramework03SubB4HomeC"
+- !private "s16TextOutputStreamP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
@@ -85,4 +104,4 @@ depends-external:
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "11a339a1e2cad4399ff42f3bac288523"
+interface-hash: "39418259f44be377eb1019b5b31b5efa"

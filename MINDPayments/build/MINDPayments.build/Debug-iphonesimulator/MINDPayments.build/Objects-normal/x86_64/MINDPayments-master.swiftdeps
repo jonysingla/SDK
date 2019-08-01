@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
 options: "c548f365a97e3493017e89af1dcdf817"
-build_time: [1564574854, 533593000]
+build_time: [1564655950, 557763000]
 inputs:
-  "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDPayments/Payments.swift": [1564574851, 582523695]
+  "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDPayments/Payments.swift": [1564655946, 692858333]
