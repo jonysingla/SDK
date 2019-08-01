@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/jony/Library/Developer/Xcode/DerivedData/MINDPayments-dityyilbneruvrddbhkwewzvqwjf/Build/Products/Debug-iphonesimulator/MINDPayments.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/build/MINDPayments.build/Debug-iphonesimulator/MINDPayments.build/unextended-module.modulemap",
+    }]
+  }]
+}

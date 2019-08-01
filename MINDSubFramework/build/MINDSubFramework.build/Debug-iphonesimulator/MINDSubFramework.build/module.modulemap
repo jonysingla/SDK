@@ -1,0 +1,11 @@
+framework module MINDSubFramework {
+  umbrella header "MINDSubFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MINDSubFramework.Swift {
+    header "MINDSubFramework-Swift.h"
+    requires objc
+}

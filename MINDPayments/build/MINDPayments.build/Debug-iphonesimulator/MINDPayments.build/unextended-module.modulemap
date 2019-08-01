@@ -1,0 +1,10 @@
+framework module MINDPayments {
+  umbrella header "MINDPayments.h"
+
+  export *
+  module * { export * }
+}
+
+module MINDPayments.__Swift {
+    exclude header "MINDPayments-Swift.h"
+}

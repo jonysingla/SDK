@@ -1,0 +1,10 @@
+framework module MindSubFrameworkTwo {
+  umbrella header "MindSubFrameworkTwo.h"
+
+  export *
+  module * { export * }
+}
+
+module MindSubFrameworkTwo.__Swift {
+    exclude header "MindSubFrameworkTwo-Swift.h"
+}

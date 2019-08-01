@@ -1,0 +1,11 @@
+framework module MINDPayments {
+  umbrella header "MINDPayments.h"
+
+  export *
+  module * { export * }
+}
+
+module MINDPayments.Swift {
+    header "MINDPayments-Swift.h"
+    requires objc
+}

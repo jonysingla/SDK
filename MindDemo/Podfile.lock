@@ -1,0 +1,20 @@
+PODS:
+  - SkyFloatingLabelTextField (3.7.0)
+  - TPKeyboardAvoidingSwift (3.1)
+
+DEPENDENCIES:
+  - SkyFloatingLabelTextField (~> 3.0)
+  - TPKeyboardAvoidingSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SkyFloatingLabelTextField
+    - TPKeyboardAvoidingSwift
+
+SPEC CHECKSUMS:
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  TPKeyboardAvoidingSwift: b518d6e0c325d62ef5bddb712f22852b41cd165c
+
+PODFILE CHECKSUM: 23a52b98cacfb5387b9929b0d91b1ab0022563ea
+
+COCOAPODS: 1.6.2

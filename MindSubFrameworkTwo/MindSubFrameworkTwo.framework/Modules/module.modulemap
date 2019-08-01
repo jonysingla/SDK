@@ -1,0 +1,11 @@
+framework module MindSubFrameworkTwo {
+  umbrella header "MindSubFrameworkTwo.h"
+
+  export *
+  module * { export * }
+}
+
+module MindSubFrameworkTwo.Swift {
+    header "MindSubFrameworkTwo-Swift.h"
+    requires objc
+}

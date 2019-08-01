@@ -1,0 +1,122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Payments"
+provides-nominal:
+- "12MINDPayments8PaymentsC"
+provides-member:
+- ["12MINDPayments8PaymentsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "NSObject"
+- "Payments"
+- !private "SubFrameworkHome"
+- !private "SubFrameworkTwo"
+depends-member:
+- !private ["s7CVarArgP", "SubFrameworkHome"]
+- !private ["s7CVarArgP", "SubFrameworkTwo"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subtract"]
+- !private ["s28CustomDebugStringConvertibleP", "SubFrameworkHome"]
+- !private ["s28CustomDebugStringConvertibleP", "SubFrameworkTwo"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subtract"]
+- !private ["s23CustomStringConvertibleP", "SubFrameworkHome"]
+- !private ["s23CustomStringConvertibleP", "SubFrameworkTwo"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subtract"]
+- !private ["SQ", "SubFrameworkHome"]
+- !private ["SQ", "SubFrameworkTwo"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subtract"]
+- !private ["SH", "SubFrameworkHome"]
+- !private ["SH", "SubFrameworkTwo"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "init"]
+- !private ["SH", "subtract"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "SubFrameworkHome"]
+- !private ["So8NSObjectC", "SubFrameworkTwo"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "subtract"]
+- !private ["So8NSObjectP", "SubFrameworkHome"]
+- !private ["So8NSObjectP", "SubFrameworkTwo"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "subtract"]
+- ["12MINDPayments8PaymentsC", "Int"]
+- !private ["12MINDPayments8PaymentsC", "SubFrameworkHome"]
+- !private ["12MINDPayments8PaymentsC", "SubFrameworkTwo"]
+- ["12MINDPayments8PaymentsC", "add"]
+- ["12MINDPayments8PaymentsC", "deinit"]
+- ["12MINDPayments8PaymentsC", "init"]
+- ["12MINDPayments8PaymentsC", "subtract"]
+- !private ["16MINDSubFramework03SubB4HomeC", "add"]
+- !private ["19MindSubFrameworkTwo0bcD0C", "subtract"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SubFrameworkHome"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SubFrameworkTwo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtract"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "12MINDPayments8PaymentsC"
+- !private "16MINDSubFramework03SubB4HomeC"
+- !private "19MindSubFrameworkTwo0bcD0C"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDSubFramework.framework/Modules/MINDSubFramework.swiftmodule/x86_64.swiftmodule"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MindSubFrameworkTwo.framework/Modules/MindSubFrameworkTwo.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDSubFramework.framework/Headers/MINDSubFramework.h"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MindSubFrameworkTwo.framework/Headers/MindSubFrameworkTwo.h"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDPayments/MINDPayments.h"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDSubFramework.framework/Headers/MINDSubFramework-Swift.h"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MindSubFrameworkTwo.framework/Headers/MindSubFrameworkTwo-Swift.h"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/build/MINDPayments.build/Debug-iphonesimulator/MINDPayments.build/unextended-module.modulemap"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MINDSubFramework.framework/Modules/module.modulemap"
+- "/Users/jony/Desktop/Demo/MINDSDK/MINDPayments/MindSubFrameworkTwo.framework/Modules/module.modulemap"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_10_2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c40d2d3a815a731a9c5119b9cb7d32da"

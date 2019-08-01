@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEA464261E05B441C001886 /* Pods_MindDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988F0B4865C3303BBCC8A8C /* Pods_MindDemo.framework */; };
+		F082B7E822F19B4B0008A114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082B7E722F19B4B0008A114 /* AppDelegate.swift */; };
+		F082B7EA22F19B4B0008A114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082B7E922F19B4B0008A114 /* ViewController.swift */; };
+		F082B7ED22F19B4B0008A114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F082B7EB22F19B4B0008A114 /* Main.storyboard */; };
+		F082B7EF22F19B4C0008A114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F082B7EE22F19B4C0008A114 /* Assets.xcassets */; };
+		F082B7F222F19B4C0008A114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F082B7F022F19B4C0008A114 /* LaunchScreen.storyboard */; };
+		F082B7FE22F19BF70008A114 /* MINDPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082B7FD22F19BF60008A114 /* MINDPayments.framework */; };
+		F082B7FF22F19BF70008A114 /* MINDPayments.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F082B7FD22F19BF60008A114 /* MINDPayments.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F082B80622F1A9DD0008A114 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082B80522F1A9DD0008A114 /* CustomAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F082B80022F19BF70008A114 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F082B7FF22F19BF70008A114 /* MINDPayments.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		079229D828414C6F9CF87A7B /* Pods-MindDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindDemo.release.xcconfig"; path = "Target Support Files/Pods-MindDemo/Pods-MindDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C988F0B4865C3303BBCC8A8C /* Pods_MindDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CFD01DABF9A0339537A8DD /* Pods-MindDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindDemo.debug.xcconfig"; path = "Target Support Files/Pods-MindDemo/Pods-MindDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F082B7E422F19B4B0008A114 /* MindDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F082B7E722F19B4B0008A114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F082B7E922F19B4B0008A114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F082B7EC22F19B4B0008A114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F082B7EE22F19B4C0008A114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F082B7F122F19B4C0008A114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F082B7F322F19B4C0008A114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F082B7FD22F19BF60008A114 /* MINDPayments.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MINDPayments.framework; sourceTree = "<group>"; };
+		F082B80522F1A9DD0008A114 /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F082B7E122F19B4B0008A114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F082B7FE22F19BF70008A114 /* MINDPayments.framework in Frameworks */,
+				CEEA464261E05B441C001886 /* Pods_MindDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE8BFF81A2531A070FDFC3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C988F0B4865C3303BBCC8A8C /* Pods_MindDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7889586E96A30FA40D2BBE08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5CFD01DABF9A0339537A8DD /* Pods-MindDemo.debug.xcconfig */,
+				079229D828414C6F9CF87A7B /* Pods-MindDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F082B7DB22F19B4B0008A114 = {
+			isa = PBXGroup;
+			children = (
+				F082B7FD22F19BF60008A114 /* MINDPayments.framework */,
+				F082B7E622F19B4B0008A114 /* MindDemo */,
+				F082B7E522F19B4B0008A114 /* Products */,
+				7889586E96A30FA40D2BBE08 /* Pods */,
+				2AE8BFF81A2531A070FDFC3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F082B7E522F19B4B0008A114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F082B7E422F19B4B0008A114 /* MindDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F082B7E622F19B4B0008A114 /* MindDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F082B80522F1A9DD0008A114 /* CustomAlert.swift */,
+				F082B7E722F19B4B0008A114 /* AppDelegate.swift */,
+				F082B7E922F19B4B0008A114 /* ViewController.swift */,
+				F082B7EB22F19B4B0008A114 /* Main.storyboard */,
+				F082B7EE22F19B4C0008A114 /* Assets.xcassets */,
+				F082B7F022F19B4C0008A114 /* LaunchScreen.storyboard */,
+				F082B7F322F19B4C0008A114 /* Info.plist */,
+			);
+			path = MindDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F082B7E322F19B4B0008A114 /* MindDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F082B7F622F19B4C0008A114 /* Build configuration list for PBXNativeTarget "MindDemo" */;
+			buildPhases = (
+				1375B1EAB2F513158CC016BC /* [CP] Check Pods Manifest.lock */,
+				F082B7E022F19B4B0008A114 /* Sources */,
+				F082B7E122F19B4B0008A114 /* Frameworks */,
+				F082B7E222F19B4B0008A114 /* Resources */,
+				F082B80022F19BF70008A114 /* Embed Frameworks */,
+				F082B80122F19C8F0008A114 /* ShellScript */,
+				8C4FD69DB7C9C451979D6CD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindDemo;
+			productName = MindDemo;
+			productReference = F082B7E422F19B4B0008A114 /* MindDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F082B7DC22F19B4B0008A114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Jony;
+				TargetAttributes = {
+					F082B7E322F19B4B0008A114 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = F082B7DF22F19B4B0008A114 /* Build configuration list for PBXProject "MindDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F082B7DB22F19B4B0008A114;
+			productRefGroup = F082B7E522F19B4B0008A114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F082B7E322F19B4B0008A114 /* MindDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F082B7E222F19B4B0008A114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F082B7F222F19B4C0008A114 /* LaunchScreen.storyboard in Resources */,
+				F082B7EF22F19B4C0008A114 /* Assets.xcassets in Resources */,
+				F082B7ED22F19B4B0008A114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1375B1EAB2F513158CC016BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4FD69DB7C9C451979D6CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindDemo/Pods-MindDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoidingSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindDemo/Pods-MindDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F082B80122F19C8F0008A114 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd ${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Frameworks/MINDPayments.framework/Frameworks\nfor EACH in *.framework; do\necho \"-- signing ${EACH}\"\n/usr/bin/codesign --force --deep --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" --entitlements \"${TARGET_TEMP_DIR}/${PRODUCT_NAME}.app.xcent\" --timestamp=none $EACH\ndone\npopd\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F082B7E022F19B4B0008A114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F082B80622F1A9DD0008A114 /* CustomAlert.swift in Sources */,
+				F082B7EA22F19B4B0008A114 /* ViewController.swift in Sources */,
+				F082B7E822F19B4B0008A114 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F082B7EB22F19B4B0008A114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F082B7EC22F19B4B0008A114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F082B7F022F19B4C0008A114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F082B7F122F19B4C0008A114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F082B7F422F19B4C0008A114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F082B7F522F19B4C0008A114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F082B7F722F19B4C0008A114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CFD01DABF9A0339537A8DD /* Pods-MindDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXKT324KA7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/MINDPayments.framework\"/**",
+					"\"$(SRCROOT)/MINDPayments.framework/Frameworks\"",
+				);
+				INFOPLIST_FILE = MindDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jony.MindDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F082B7F822F19B4C0008A114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079229D828414C6F9CF87A7B /* Pods-MindDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXKT324KA7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/MINDPayments.framework\"/**",
+					"\"$(SRCROOT)/MINDPayments.framework/Frameworks\"",
+				);
+				INFOPLIST_FILE = MindDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jony.MindDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F082B7DF22F19B4B0008A114 /* Build configuration list for PBXProject "MindDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F082B7F422F19B4C0008A114 /* Debug */,
+				F082B7F522F19B4C0008A114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F082B7F622F19B4C0008A114 /* Build configuration list for PBXNativeTarget "MindDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F082B7F722F19B4C0008A114 /* Debug */,
+				F082B7F822F19B4C0008A114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F082B7DC22F19B4B0008A114 /* Project object */;
+}
